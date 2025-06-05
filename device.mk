@@ -140,3 +140,4 @@ PRODUCT_PACKAGES_DEBUG += \
 # Inherit from motorola msm8998-common
 TARGET_MOTO_PLATFORM := msm8998
 $(call inherit-product, device/motorola/msm8998-common/common.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
